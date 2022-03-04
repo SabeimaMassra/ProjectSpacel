@@ -26,7 +26,7 @@ Cette ontologie contient une description de toutes les vidéos déposées sur la
 
 
 ## Présentation du Systèmes Multi-Agents 
-- L'"Agent Manager" (AM) gère les cycles de vie des agents de recommandation de parcours personnalisé. Ainsi, pour chaque objet d'apprentissage choisi, s’il ne l'a pas encore fait, le composant crée un agent de recommandation. L’agent créé sera détruit par l'\textbf{AM} dès qu’il n’y aura plus d'apprenant sur sa file d’attente.
+- L'"Agent Manager" (AM) gère les cycles de vie des agents de recommandation de parcours personnalisé. Ainsi, pour chaque objet d'apprentissage choisi, s’il ne l'a pas encore fait, le composant crée un agent de recommandation. L’agent créé sera détruit par l'AM dès qu’il n’y aura plus d'apprenant sur sa file d’attente.
 - Les "Recomendation Agent" (RA) gèrent la synchronisation entre les apprenants et assurent le bon déroulement des parcours en évitant les cas critiques qui peuvent être créés au cours de la session d’apprentissage. Ainsi, chaque RA gère une file d’attente d'apprenants sur un objet d’apprentissage lors de parcours de formation.
 - L'agent "Critical Case Management Agent" (CCMA) a comme tâche de trouver une solution au problème de cas critique. Par exemple, en mode collaboratif, un apprenant est supposé en cas critique après l'expiration de sa durée d'attente permise sans que l’agent lui trouve un groupe pour collaborer. Un tel cas peut se produire par absence d'apprenants sur l’objet d’apprentissage ou à cause de l'hétérogénéité des profils des apprenants. 
  
